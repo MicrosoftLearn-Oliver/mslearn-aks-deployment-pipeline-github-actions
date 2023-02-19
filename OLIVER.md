@@ -52,6 +52,8 @@ az ad sp create-for-rbac --role Contributor --scopes /subscriptions/8952fcd5-b33
 #   "managementEndpointUrl": "https://management.core.windows.net/"
 # }
 
+contoso-staging.e5a674ccc4214e29855a.eastus.aksapp.io
+
 https://helm.sh/docs/intro/install/
 https://stackoverflow.com/questions/65086856/wsl2-clock-is-out-of-sync-with-windows
 
