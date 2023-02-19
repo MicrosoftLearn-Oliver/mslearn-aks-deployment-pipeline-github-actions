@@ -25,4 +25,12 @@ az acr repository list --name contosocontainerregistry21267 -o table
 
 git tag -a v2.0.0 -m 'First tag'
 git push --tags
+
+az acr repository show-tags --repository contoso-website --name contosocontainerregistry21267 -o table
+
+az aks show -g mslearn-gh-pipelines-6901 -n contoso-video -o tsv --query addonProfiles.httpApplicationRouting.config.HTTPApplicationRoutingZoneName
+
+https://helm.sh/docs/intro/install/
+https://stackoverflow.com/questions/65086856/wsl2-clock-is-out-of-sync-with-windows
+
 ```
